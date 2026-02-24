@@ -37,25 +37,24 @@ export const Contact = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Let's Work Together
+            Contacto
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Have a project in mind? Let's create something amazing together
+            Dame la oportunidad de crear algo increible
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Get in Touch</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">Ponte en contacto</h3>
               <p className="text-gray-600 leading-relaxed mb-6">
-                I'm always interested in hearing about new projects and opportunities.
-                Whether you have a question or just want to say hi, feel free to reach out!
+                Siempre me interesa saber sobre nuevos proyectos y oportunidades. Si tienes alguna pregunta o simplemente quieres saludar, ¡no dudes en contactarme!
               </p>
             </div>
 
             <div className="space-y-4">
-              <h4 className="text-lg font-semibold text-gray-800">Connect with me</h4>
+              <h4 className="text-lg font-semibold text-gray-800">Mis redes sociales</h4>
               <div className="flex gap-4">
                 {socialLinks.map((social, index) => {
                   const Icon = social.icon;
@@ -74,12 +73,12 @@ export const Contact = () => {
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <h4 className="text-lg font-semibold text-gray-800 mb-4">Quick Response</h4>
+              <h4 className="text-lg font-semibold text-gray-800 mb-4">Respuesta inmediata</h4>
               <p className="text-gray-600 mb-2">
-                I typically respond within 24 hours
+                Normalmente respondo entre 24hrs
               </p>
               <p className="text-sm text-gray-500">
-                Looking forward to hearing from you!
+                ¡A la espera de saber de ti!
               </p>
             </div>
           </div>
@@ -99,7 +98,7 @@ export const Contact = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Your Name
+                    Tu nombre
                   </label>
                   <input
                     type="text"
@@ -115,7 +114,7 @@ export const Contact = () => {
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email Address
+                    Correo Electronico
                   </label>
                   <input
                     type="email"
@@ -131,7 +130,7 @@ export const Contact = () => {
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Message
+                    Mensaje
                   </label>
                   <textarea
                     id="message"
@@ -147,9 +146,9 @@ export const Contact = () => {
 
                 <button
                   type="submit"
-                  className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-medium hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
+                  className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-medium hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer"
                 >
-                  <span>Send Message</span>
+                  <span>Enviar mensaje</span>
                   <Send size={18} />
                 </button>
               </form>
@@ -159,7 +158,7 @@ export const Contact = () => {
 
         <div className="mt-16 text-center">
           <p className="text-gray-600">
-            © 2024 Portfolio. Built with passion and code.
+            © {new Date().getFullYear()} Portfolio. 
           </p>
         </div>
       </div>

@@ -91,6 +91,17 @@ const projects = [
     icon: Smartphone,
     imageProject: '/GifsApp.png',
   },
+  {
+    id: 9,
+    title: 'Calculator App',
+    category: 'Mobile & Web',
+    description: 'Buscador de gifs, consumiendo la API de GIPHY',
+    tags: ['React', 'TypeScript', 'Tailwindcss', 'API'],
+    gradient: 'from-pink-500 to-rose-500',
+    url: 'https://eclectic-lamington-3ad9f0.netlify.app',
+    icon: Smartphone,
+    imageProject: '/GifsApp.png',
+  },
 ];
 
 const categories = ['All', 'Web Application', 'Mobile & Web', 'Mobile Application'];
