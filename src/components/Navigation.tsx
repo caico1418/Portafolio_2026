@@ -53,7 +53,6 @@ export const Navigation = ({ activeSection, setActiveSection }: NavigationProps)
     { id: 'projects', label: 'Proyectos' },
     { id: 'about', label: 'Sobre mi' },
     { id: 'contact', label: 'Contacto' },
-    { id: 'certificaciones', label: 'Certificaciones' }
   ];
 
   return (
@@ -90,6 +89,7 @@ export const Navigation = ({ activeSection, setActiveSection }: NavigationProps)
                 )}
               </button>
             ))}
+
           </div>
 
           <button
@@ -117,6 +117,7 @@ export const Navigation = ({ activeSection, setActiveSection }: NavigationProps)
                 {item.label}
               </button>
             ))}
+            
           </div>
         </div>
       )}
