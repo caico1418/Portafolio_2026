@@ -89,9 +89,9 @@ export const Contact = () => {
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
                   <CheckCircle2 size={32} className="text-green-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">Message Sent!</h3>
+                <h3 className="text-2xl font-bold text-gray-800 mb-2">Mensaje Enviado</h3>
                 <p className="text-gray-600">
-                  Thank you for reaching out. I'll get back to you soon.
+                  Gracias por contactarnos. Nos pondremos en contacto contigo pronto.
                 </p>
               </div>
             ) : (

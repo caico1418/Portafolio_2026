@@ -49,10 +49,11 @@ export const Navigation = ({ activeSection, setActiveSection }: NavigationProps)
   };
 
   const navItems = [
-    { id: 'home', label: 'Home' },
-    { id: 'projects', label: 'Projects' },
-    { id: 'about', label: 'About' },
-    { id: 'contact', label: 'Contact' },
+    { id: 'home', label: 'Inicio' },
+    { id: 'projects', label: 'Proyectos' },
+    { id: 'about', label: 'Sobre mi' },
+    { id: 'contact', label: 'Contacto' },
+    { id: 'certificaciones', label: 'Certificaciones' }
   ];
 
   return (
@@ -69,7 +70,7 @@ export const Navigation = ({ activeSection, setActiveSection }: NavigationProps)
             onClick={() => scrollToSection('home')}
             className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent hover:scale-105 transition-transform"
           >
-            Portfolio
+            Edgar Dev
           </button>
 
           <div className="hidden md:flex space-x-8">
@@ -77,7 +78,7 @@ export const Navigation = ({ activeSection, setActiveSection }: NavigationProps)
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`relative text-sm font-medium transition-colors duration-300 ${
+                className={`relative text-sm font-medium transition-colors duration-300 cursor-pointer ${
                   activeSection === item.id
                     ? 'text-blue-600'
                     : 'text-gray-700 hover:text-blue-600'

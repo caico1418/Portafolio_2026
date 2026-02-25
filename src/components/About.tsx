@@ -4,37 +4,37 @@ const skills = [
   {
     icon: Code2,
     title: 'Frontend Development',
-    description: 'Expert in React, TypeScript, and modern web frameworks',
+    description: 'Experto en React, TypeScript, y modern web frameworks',
     color: 'blue',
   },
   {
     icon: Palette,
     title: 'UI/UX Design',
-    description: 'Creating intuitive, beautiful user experiences',
+    description: 'Creando experiencias de usuario intuitivas y hermosas',
     color: 'purple',
   },
   {
     icon: Zap,
     title: 'Performance',
-    description: 'Optimized, fast-loading applications',
+    description: 'Aplicaciones optimizadas y de carga rápida',
     color: 'yellow',
   },
   {
     icon: Users,
-    title: 'Collaboration',
-    description: 'Effective communication with teams and clients',
+    title: 'Colaboracion',
+    description: 'Comunicación efectiva con equipos y clientes',
     color: 'green',
   },
   {
     icon: Award,
-    title: 'Best Practices',
-    description: 'Clean code, accessibility, and scalability',
+    title: 'Buenas practicas',
+    description: 'Codigo limpio, accesibilidad, y escabilidad',
     color: 'red',
   },
   {
     icon: Heart,
-    title: 'Passion',
-    description: 'Love for crafting exceptional digital products',
+    title: 'Pasion',
+    description: 'Amor por crear productos digitales excepcionales',
     color: 'pink',
   },
 ];
@@ -54,10 +54,10 @@ export const About = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            About Me
+            Sobre mi
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Passionate developer with a keen eye for design
+            Desarrollador apasionado con un gran ojo para el diseño.
           </p>
         </div>
 
@@ -71,19 +71,12 @@ export const About = () => {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              With over 5 years of experience in web development and design, I specialize in
-              creating digital experiences that are both beautiful and functional. My approach
-              combines technical expertise with creative problem-solving.
+             Desarrollador full-stack en formación, apasionado por crear aplicaciones web completas y funcionales. Tengo experiencia en frontend y backend, bases de datos y entornos Linux, y me enfoco en escribir código limpio, estructurado y escalable mientras continúo perfeccionando mis habilidades.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              I believe great design is invisible – it simply works. Every project I undertake
-              is an opportunity to push boundaries and deliver exceptional results that exceed
-              expectations.
+              Además, disfruto aprender nuevas tecnologías y enfrentar desafíos que me permitan mejorar como desarrollador. He trabajado en proyectos que abarcan desde la creación de interfaces intuitivas hasta la implementación de lógica de negocio y conexión con bases de datos. Me enfoco en escribir código claro, mantenible y orientado a buenas prácticas, mientras continúo ampliando mi experiencia en el desarrollo de aplicaciones completas.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              When I'm not coding, you'll find me exploring new design trends, contributing to
-              open-source projects, or mentoring aspiring developers in the community.
-            </p>
+            
           </div>
         </div>
 
